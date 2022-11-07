@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_graffiti_2">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="661dp"
+        android:background="@drawable/round_sleep_card"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:paddingTop="40dp">
+
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/gridview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:columnWidth="90dp"
+            android:gravity="center"
+            android:numColumns="2"
+            android:stretchMode="spacingWidthUniform"
+            android:verticalSpacing="15dp"
+            android:layout_marginTop="70dp">
+        </GridView>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/closeGalerieButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="576dp"
+        android:background="@drawable/round_button_light"
+        android:clickable="true"
+        android:focusable="true"
+        app:elevation="5dp"
+        app:srcCompat="@color/colorPrimary" />
+
+</RelativeLayout>

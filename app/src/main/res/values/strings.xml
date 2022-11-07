@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name" translatable="false">Artrip</string>
+    <string name="signUP">"S'inscrire"</string>
+    <string name="logIn">"Se connecter"</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="aProposArtiste">A propos de l\'artiste</string>
+    <string name="AproposOeuvre">A propos de l\'oeuvre</string>
+    <string name="exemple">exemple</string>
+    <string name="signUpCredits">En vous inscrivant, vous acceptez les CGU, la déclaration de confidentialité ainsi que les dispositions relatives aux cookies sur Internet.</string>
+    <string name="WatsonApiKey">SlARAi1iPjc69yQ3LjzNL1zPkriQAJ6LQ-HNmR9gLU6L</string>
+    <string name="google_map_API_key" translatable="false">AIzaSyAdNWBHgZXbi73XV9JNwhXDbhrays9v8ZI</string>
+    <string name="email">Email</string>
+    <string name="WarningMessageGPS">Cette application nécessite d\'activer la localisation de votre appareil pour une entière expérience, voulez-vous l\'activé ?</string>
+    <string name="WarningMessageGPSno">Non</string>
+    <string name="WarningMessageGSPyes">Oui</string>
+    <string name="isServicesOKWarningMessage">Votre Google Maps n\'est pas à jour</string>
+    <string name="getLastKnownLocationExceptionMessage">Veuillez activer votre géolocalisation</string>
+    <string name="addMarkersUserLocationTitle">Vous commencez d\'ici</string>
+    <string name="pseudo">Pseudo</string>
+    <string name="helperCameraStep1Title">1. Prends une photo</string>
+    <string name="helperCameraStep2Title">2. Envoie-la pour analyse</string>
+    <string name="helperCameraStep1Desc">Prends une photo depuis l\'appareil photo ou sélectionne une photo depuis votre galerie d\'images.</string>
+    <string name="helperCameraStep2Desc">Envoie la photo pour la faire analyser et obtenir une fiche d\'oeuvre.</string>
+
+    <string name="helperTitle">Aide</string>
+
+    <string name="helperMainMenuStep1Title">Scanner</string>
+    <string name="helperMainMenuStep2Title">Jouer</string>
+    <string name="helperMainMenuStep3Title">Ma galerie</string>
+    <string name="helperMainMenuStep1Desc">Tu aimes une oeuvre urbaine mais tu ne connais pas l\'artiste ? Peut-être qu\'on le sait ! \n\n Prends-la en photo ou importe-la de ta galerie puis envoie-la à notre IA pour analyse.</string>
+    <string name="helperMainMenuStep2Desc">On te propose une sélection d\'oeuvres à découvrir dans Paris. Parcours la ville et aide-toi des indices pour débloquer chacune d\' elle !</string>
+    <string name="helperMainMenuStep3Desc">Retrouve dans ta galerie toutes les fiches d\'informations obtenues en mode hors connexion (sans compte utilisateur).</string>
+
+    <string name="helperMapsStep1Desc">On te propose une sélection d\'oeuvres à découvrir dans Paris. Parcours la ville et aide-toi des indices pour débloquer chacune d\' elle !</string>
+    <string name="helperMapsStep2Desc">1. Rapproche-toi la plus possible de la zone de jeu.</string>
+    <string name="helperMapsStep3Desc">2. Clique sur le marqueur de l\'oeuvre que tu veux débloquer.</string>
+    <string name="helperMapsStep4Desc">3. Prends l\'oeuvre en photo Nous analysons ta réponse.</string>
+    <string name="helperMapsStep5Desc">4. C\'est la bonne ? Tu gagnes des points et tu obtiens la fiche d\'informations de l\'oeuvre.</string>
+    <string name="helperMapsStep6Desc">Tu peux retouver ta collection d\'oeuvres débloquées dans ton espace joueur.</string>
+
+    <string name="profileTabTitle">Profil</string>
+    <string name="archivesTabTitle">Ma collection</string>
+
+    <string name="CheatingLAterDesc">As tu vraiment cru que tu pouvais gagner des points ainsi ?   Tu n\'es même pas dans la zone de jeu ?! </string>
+    <string name="CheatingAlterTitle">ALERTE TRICHE !</string>
+    <string name="OnBoardingAction">PRÊT.E POUR l\' AVENTURE ?</string>
+    <string name="OnBoardingNext">PASSER</string>
+    <string name="cheatingArtworkFoundMessage">Tricheur.euse !!! Cherche en une autre.</string>
+    <string name="cheatingArtworkFoundTitle">ALERTE OEUVRE DEBLOQUEE</string>
+
+</resources>

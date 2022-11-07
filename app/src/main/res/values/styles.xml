@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="android:background">@color/colorPrimary</item>-->
+    </style>
+
+    <style name="BasicTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="EditBox" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorEditTextUnderligne</item>
+        <item name="colorControlActivated">@color/colorEditTextUnderligne</item>
+    </style>
+
+    <style name="popUpMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:layout_marginHorizontal">16dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:fontFamily">@font/text_font</item>
+        <item name="android:popupBackground">@color/colorPrimary</item>
+        <item name="android:itemBackground">@color/colorPrimary</item>
+    </style>
+
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserActivity"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/userIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon_user_light"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="20dp"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:text="Anonyme"
+        android:textColor="@color/colorPrimary"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:layout_toRightOf="@+id/userIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/closeProfileButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/round_button"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:elevation="5dp"
+        app:srcCompat="@color/colorPrimary" />
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabsWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="20dp"
+        app:tabTextColor="@color/white"
+        app:tabIndicatorColor="@color/colorPrimary">
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabsWrapper" />
+
+<!--    <FrameLayout
+        android:id="@+id/contentFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabsWrapper"
+        android:layout_marginTop="20dp">
+
+    </FrameLayout>-->
+
+</RelativeLayout>

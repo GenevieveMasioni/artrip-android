@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LogInActivity"
+    android:background="#FFFAD32E">
+
+    <ImageView
+        android:background="@color/black"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+
+    <TextView
+        android:id="@+id/LogInTitle"
+        android:text="@string/logIn"
+        android:textColor="@color/liquid_white"
+        android:paddingHorizontal="25dp"
+        android:layout_marginTop="100dp"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:fontFamily="@font/font_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/EmailInput"
+        android:hint="@string/email"
+        android:textColor="@color/textColor"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:theme="@style/EditBox"
+        android:background="@drawable/camera_fluid_bg"
+        android:layout_below="@id/LogInTitle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <EditText
+        android:id="@+id/MDPInput"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        android:textColor="@color/textColor"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:paddingHorizontal="20dp"
+        android:textSize="20sp"
+        android:theme="@style/EditBox"
+        android:background="@drawable/camera_fluid_bg"
+        android:layout_below="@id/EmailInput"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+
+    <Button
+        android:id="@+id/GoBtn"
+        android:text="Connexion"
+        android:background="@drawable/round_button_shadow"
+        android:layout_below="@id/MDPInput"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

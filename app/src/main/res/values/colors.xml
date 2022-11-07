@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FAD32E</color>
+    <color name="colorPrimaryDark">#FAD32E</color>
+    <color name="colorAccent">#000000</color>
+    <color name="textColor">#191818</color>
+    <color name="colorEditTextUnderligne">#FFF</color>
+    <color name="liquid_white">#9EFFFFFF</color>
+    <color name="liquid_black">#9E000000</color>
+    <color name="black">#191818</color>
+    <color name="white">#FFF</color>
+</resources>

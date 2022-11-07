@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CameraActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_graffiti_2" />
+
+    <LinearLayout
+        android:id="@+id/mediaButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/camera_fluid_bg"
+        android:orientation="horizontal"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="10dp">
+
+        <ImageButton
+            android:id="@+id/cameraButton"
+            android:layout_width="38dp"
+            android:layout_height="42dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/camera"
+            android:text="prendre" />
+
+        <ImageButton
+            android:id="@+id/downloadButton"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/img_upload"
+            android:text="enregistrer" />
+
+        <ImageButton
+            android:id="@+id/galleryButton"
+            android:layout_width="38dp"
+            android:layout_height="46dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@drawable/gallery"
+            android:text="Pellicule" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/helperOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/liquid_black"
+        android:visibility="invisible">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp">
+
+            <TextView
+                android:id="@+id/helperTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/savate"
+                android:text="@string/helperTitle"
+                android:textColor="@color/colorPrimary"
+                android:textSize="35sp" />
+
+            <TextView
+                android:id="@+id/helperStep1Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helperTitle"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/savate"
+                android:text="@string/helperCameraStep1Title"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/helperStep1Desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helperStep1Title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/helperCameraStep1Desc"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/takePhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helperStep1Desc"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/camera_helper_button"
+                    android:clickable="false" />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_below="@+id/helperStep2Desc"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/camera_helper_button"
+                    android:clickable="false" />
+
+                <Button
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:background="@drawable/camera_helper_button"
+                    android:clickable="false" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/takePhoto"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:text="1               2                   1"/>
+
+            <TextView
+                android:id="@+id/helperStep2Title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/takePhoto"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="50dp"
+                android:fontFamily="@font/savate"
+                android:text="@string/helperCameraStep2Title"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/helperStep2Desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/helperStep2Title"
+                android:layout_centerHorizontal="true"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/helperCameraStep2Desc"
+                android:textColor="@color/white"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/helpButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toLeftOf="@+id/homeButton"
+        android:background="@drawable/help_button_dark"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/home_button"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
