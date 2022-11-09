@@ -1,5 +1,7 @@
 # Artrip for Android
 
+**DEPRECATED : this project is no longer maintained (read-only). Please DO NOT fork/ re-use in any way, shape or form.**
+
 Artrip (only available in French) is an app that offers to discover Paris thanks to city tours focused on street-art pieces. Artrip uses an IBM Watson AI trained on street-art from the 13th arrondissement of Paris.
 
 It's simple to use: take a photo of a street-art piece and get an info card about it. You can also go on themed city tours to unlock art pieces and earn points.
